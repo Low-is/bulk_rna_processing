@@ -1,7 +1,7 @@
 # bulk_rna_processing
 
 
-## Clone Repo
+## Clone Repository
 ```
 # Bash  
 
