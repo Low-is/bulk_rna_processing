@@ -18,6 +18,16 @@ wsl -d Ubuntu
 # Create simple password, nothing will appear on the screen, no dots or asterisks. This is normal for Linux
 ```
 
+## Install the tools needed to build STAR
+```
+# Bash
+
+sudo apt update
+sudo apt install -y wget tar make g++
+
+# May ask for Linux password
+```
+
 
 ## Clone Repository
 ```
