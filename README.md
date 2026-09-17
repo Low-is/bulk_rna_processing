@@ -1,5 +1,13 @@
 # bulk_rna_processing
 
+## WSL and Ubuntu Installation
+```
+# WindowsPowerShell
+
+wsl --install
+wsl --install -d Ubuntu
+```
+
 
 ## Clone Repository
 ```
