@@ -15,7 +15,3 @@ cd bulk_rna_processing
 
 python -m venv venv
 source venv/Scripts/activate # Git Bash command
-
-# Install dependencies
-pip install -r requirements.txt
-```
