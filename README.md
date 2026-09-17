@@ -1,2 +1,21 @@
 # bulk_rna_processing
-A reproducible workflow for processing bulk RNA-seq FASTQ files from raw sequencing reads through quality control, trimming, alignment, and BAM generation.
+
+
+## Clone Repo
+```
+# Bash  
+
+git clone https://github.com/Low-is/multi-cohort-meta.git
+cd multi-cohort-meta
+```
+
+## Create Python venv
+```
+# Bash
+
+python -m venv venv
+source venv/Scripts/activate # Git Bash command
+
+# Install dependencies
+pip install -r miner/requirements.txt
+```
