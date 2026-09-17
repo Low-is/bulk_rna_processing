@@ -17,5 +17,5 @@ python -m venv venv
 source venv/Scripts/activate # Git Bash command
 
 # Install dependencies
-pip install -r miner/requirements.txt
+pip install -r requirements.txt
 ```
