@@ -5,8 +5,8 @@
 ```
 # Bash  
 
-git clone https://github.com/Low-is/multi-cohort-meta.git
-cd multi-cohort-meta
+git clone https://github.com/Low-is/bulk_rna_processing.git
+cd bulk_rna_processing
 ```
 
 ## Create Python venv
