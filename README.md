@@ -15,6 +15,7 @@ cd bulk_rna_processing
 
 python -m venv venv
 source venv/Scripts/activate # Git Bash command
+```
 
 
 ## Run bulk RNA-seq processing
@@ -22,3 +23,4 @@ source venv/Scripts/activate # Git Bash command
 # Bash
 
 python bulk_rna_processing.py
+```
