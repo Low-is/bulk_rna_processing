@@ -187,7 +187,7 @@ def create_count_matrix(output_directory, output_prefix):
     qc_file = output_prefix + "_qc.csv"
 
     with open(raw_counts_file, "w", newline="") as counts_file, \
-         open(qc_file, "w", newline="") as qc_file:
+     open(qc_file, "w", newline="") as qc_file:
 
         counts_writer = csv.writer(counts_file)
         qc_writer = csv.writer(qc_file)
