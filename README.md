@@ -38,7 +38,7 @@ wget https://github.com/alexdobin/STAR/archive/2.7.11b.tar.gz
 
 ## Extract the STAR files
 ```
-# Bash
+# Ubuntu
 
 tar -xzf 2.7.11b.tar.gz
 cd STAR-2.7.11b/source
