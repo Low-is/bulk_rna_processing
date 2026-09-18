@@ -115,6 +115,20 @@ gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 gunzip Homo_sapiens.GRCh38.99.gtf.gz
 ```
 
+
+## Determined read length of trimmed FASTQ files
+```
+# Ubuntu
+
+zcat /mnt/d/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/fastq/127791_5_R1.trimmed.fastq.gz | awk 'NR==2 {print length($0); exit}'
+
+# If output: 150
+# --sjdbOverhang 149
+
+# If output: 100
+# --sjdbOverhang 99
+```
+
 ## Clone Repository
 ```
 # Bash  
