@@ -44,6 +44,16 @@ tar -xzf 2.7.11b.tar.gz
 cd STAR-2.7.11b/source
 ```
 
+
+## Move STAR into Linux home directory
+```
+# Ubuntu
+
+cd ~
+mv /mnt/c/Users/loisr/STAR-2.7.11b .
+cd ~/STAR-2.7.11b/source
+```
+
 ## Clone Repository
 ```
 # Bash  
