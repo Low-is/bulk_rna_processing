@@ -60,6 +60,7 @@ cd ~/STAR-2.7.11b/source
 # Ubuntu
 # If given this error, install zlib:
 # fatal error: zlib.h: No such file or directory
+# Will ask for Linux password
 
 sudo apt install -y zlib1g-dev
 ```
