@@ -81,6 +81,23 @@ make STAR
 sudo cp STAR /usr/local/bin/
 ```
 
+
+## Create reference directory
+```
+# Ubuntu
+
+mkdir -p ~/genomes/h38
+cd ~/genomes/h38
+```
+
+
+# Download Ensembl release 99 / GRCh38
+```
+# Ubuntu
+
+wget https://ftp.ensembl.org/pub/release-99/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+```
+
 ## Clone Repository
 ```
 # Bash  
