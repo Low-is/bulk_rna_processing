@@ -54,6 +54,14 @@ mv /mnt/c/Users/loisr/STAR-2.7.11b .
 cd ~/STAR-2.7.11b/source
 ```
 
+
+# Compile STAR 
+```
+# Ubuntu
+
+make STAR
+```
+
 ## Clone Repository
 ```
 # Bash  
