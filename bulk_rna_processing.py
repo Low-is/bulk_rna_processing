@@ -10,13 +10,22 @@ import re
 # ---------------------------------------------------------
 # Directories
 # ---------------------------------------------------------
-fastq_directory_striatum = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/fastq/" 
-fastq_directory_choroid_plexus = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU505_choroid_plexus/fastq/" 
+#fastq_directory_striatum = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/fastq/"  # Window path
+#fastq_directory_choroid_plexus = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU505_choroid_plexus/fastq/" 
 
-output_directory_striatum = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/star_output/"
-output_directory_choroid_plexus = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU505_choroid_plexus/star_output/"
+fastq_directory_striatum = "/mnt/d/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/fastq/"
+fastq_directory_choroid_plexus = "/mnt/d/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU505_choroid_plexus/fastq/" 
 
-genome_directory = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/genomes/h38/STAR/" 
+
+
+#output_directory_striatum = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/star_output/"
+output_directory_striatum = "/mnt/d/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU504_striatum/star_output/"
+
+#output_directory_choroid_plexus = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU505_choroid_plexus/star_output/"
+output_directory_choroid_plexus = "/mnt/d/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/LJO1JHU505_choroid_plexus/star_output/"
+
+#genome_directory = "D:/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/genomes/h38/STAR/" 
+genome_directory = "/mnt/d/Projects/animal_projects/animal_brain/Lauren_Jantzie_RNASeq/genomes/h38/STAR/"
 
 
 # ---------------------------------------------------------
