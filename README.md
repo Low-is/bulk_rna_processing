@@ -165,7 +165,7 @@ free -h # Verify new memory
 ```
 
 
-## Run STAR
+## Build STAR index
 ```
 # Ubuntu
 
