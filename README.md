@@ -145,6 +145,25 @@ STAR \
   --sjdbOverhang 149
 ```
 
+
+## Need more RAM?
+```
+# Ubuntu
+
+exit # will exit WSL-Ubuntu to PowerShell
+
+# PowerShell
+notepad "$env:USERPROFILE\.wslconfig"
+# Notepad will ask if you want to create this file, click "Yes"
+
+wsl --shutdown # restart WSL
+
+
+# Ubuntu
+wsl -d Ubuntu # start Ubuntu again
+free -h # Verify new memory
+```
+
 ## Clone Repository
 ```
 # Bash  
