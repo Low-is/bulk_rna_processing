@@ -20,7 +20,7 @@ wsl -d Ubuntu
 
 ## Install the tools needed to build STAR
 ```
-# Bash
+# Ubuntu
 
 sudo apt update
 sudo apt install -y wget tar make g++
@@ -31,7 +31,7 @@ sudo apt install -y wget tar make g++
 
 ## Download STAR 2.7.11b
 ```
-# Bash
+# Ubuntu
 
 wget https://github.com/alexdobin/STAR/archive/2.7.11b.tar.gz
 ```
