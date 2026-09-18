@@ -29,6 +29,14 @@ sudo apt install -y wget tar make g++
 ```
 
 
+## Download STAR 2.7.11b
+```
+# Bash
+
+wget https://github.com/alexdobin/STAR/archive/2.7.11b.tar.gz
+```
+
+
 ## Clone Repository
 ```
 # Bash  
