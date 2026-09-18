@@ -55,6 +55,16 @@ cd ~/STAR-2.7.11b/source
 ```
 
 
+# Instal Zlib (if needed)
+```
+# Ubuntu
+# If given this error, install zlib:
+# fatal error: zlib.h: No such file or directory
+
+sudo apt install -y zlib1g-dev
+```
+
+
 # Compile STAR 
 ```
 # Ubuntu
