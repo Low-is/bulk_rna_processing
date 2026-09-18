@@ -106,6 +106,15 @@ wget https://ftp.ensembl.org/pub/release-99/fasta/homo_sapiens/dna/Homo_sapiens.
 wget https://ftp.ensembl.org/pub/release-99/gtf/homo_sapiens/Homo_sapiens.GRCh38.99.gtf.gz
 ```
 
+
+# Unzip FASTA and GTF
+```
+# Ubuntu
+
+gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+gunzip Homo_sapiens.GRCh38.99.gtf.gz
+```
+
 ## Clone Repository
 ```
 # Bash  
