@@ -98,6 +98,14 @@ cd ~/genomes/h38
 wget https://ftp.ensembl.org/pub/release-99/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 ```
 
+
+## Download matching Ensembl release 99 GTF annotation 
+```
+# Ubuntu
+
+wget https://ftp.ensembl.org/pub/release-99/gtf/homo_sapiens/Homo_sapiens.GRCh38.99.gtf.gz
+```
+
 ## Clone Repository
 ```
 # Bash  
