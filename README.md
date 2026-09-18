@@ -74,7 +74,7 @@ make STAR
 ```
 
 
-## Install STAR so it can be run from anywhere
+## Install STAR (can be ran anywhere)
 ```
 # Ubuntu
 
