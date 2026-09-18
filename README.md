@@ -176,6 +176,19 @@ STAR \
   --genomeFastaFiles ~/genomes/h38/Homo_sapiens.GRCh38.dna.primary_assembly.fa \
   --sjdbGTFfile ~/genomes/h38/Homo_sapiens.GRCh38.99.gtf \
   --sjdbOverhang 149
+
+
+# Or try:
+
+
+STAR \
+  --runThreadN 16 \
+  --runMode genomeGenerate \
+  --genomeDir ~/genomes/h38/STAR \
+  --genomeFastaFiles ~/genomes/h38/Homo_sapiens.GRCh38.dna.primary_assembly.fa \
+  --sjdbGTFfile ~/genomes/h38/Homo_sapiens.GRCh38.99.gtf \
+  --sjdbOverhang 149 \
+  --genomeSAindexNbases 13
 ```
 
 ## Clone Repository
