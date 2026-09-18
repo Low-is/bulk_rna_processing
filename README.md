@@ -91,7 +91,7 @@ cd ~/genomes/h38
 ```
 
 
-# Download Ensembl release 99 / GRCh38
+# Download Ensembl release 99 / GRCh38 (human reference genome)
 ```
 # Ubuntu
 
