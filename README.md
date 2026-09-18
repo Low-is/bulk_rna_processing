@@ -73,6 +73,14 @@ sudo apt install -y zlib1g-dev
 make STAR
 ```
 
+
+## Install STAR so it can be run from anywhere
+```
+# Ubuntu
+
+sudo cp STAR /usr/local/bin/
+```
+
 ## Clone Repository
 ```
 # Bash  
